@@ -174,8 +174,8 @@ nav ul li a:hover:after{
 .size {
     font-size: x-large;
 }
-.img1{
-    max-height: 300px
+/*.img1{
+    max-height: 300px;
 }
 .img2{
     max-height: 300px;
@@ -187,8 +187,35 @@ nav ul li a:hover:after{
     position: absolute;
     top: 15%;
     right: 15%;
+}*/
+img{
+    width : 150px;
+    height : auto;
 }
 
+.image{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 0px;
+    justify-items: center;
+    align-items: center;
+    position: absolute;
+    top: 20%;
+    right: 25%;
+}
+.img1{
+    grid-column: 1;
+    grid-row: 1;
+}
+.img2{
+    grid-column: 3;
+    grid-row: 2;
+}
+.img3{
+    grid-column: 1;
+    grid-row: 3;
+}
 .cv{
     position: absolute;
     top: 15%;
