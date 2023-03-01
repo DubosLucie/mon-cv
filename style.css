@@ -87,6 +87,31 @@ nav ul li a:hover:after{
     border : 0px;
 }
 
+.fondCouleur{
+    line-height: 1.5;
+    background: url(img_fond8.jpg);
+    font-size: 110%;
+    border-radius: 30px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: inline-block;
+    padding: 10px 20px;
+    border : 0px;
+}
+
+.fondTransparent{
+    line-height: 1.5;
+    background-color: transparent;
+    font-size: 110%;
+    border-radius: 30px;
+    background-size: cover;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    display: inline-block;
+    padding: 10px 20px;
+    border : 0px;
+}
+
 .couleurTexteBouton{
     color : white;
 }
@@ -174,20 +199,7 @@ nav ul li a:hover:after{
 .size {
     font-size: x-large;
 }
-/*.img1{
-    max-height: 300px;
-}
-.img2{
-    max-height: 300px;
-    position: relative;
-    top: 200px;
-    left: 50px;
-}
-.image{
-    position: absolute;
-    top: 15%;
-    right: 15%;
-}*/
+
 img{
     width : 150px;
     height : auto;
@@ -216,12 +228,18 @@ img{
     grid-column: 1;
     grid-row: 3;
 }
-.cv{
+#cv{
     position: absolute;
     top: 15%;
     left: 25%;
     width: 50%;
 }
+
+#imgCv{
+    position: absolute;
+    top: 10%;
+    right: 5%;
+}   
     
 
 
