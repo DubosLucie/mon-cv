@@ -21,9 +21,12 @@ a{
 
 
 #fondCoul{
+    width: 100%;
+    height: 180vh;
     background-color: #F0F8FF;
-    background-size: auto;
-    background-repeat: repeat-x;
+    background-size: cover;
+    background-position-x: center;
+    background-repeat: no-repeat;
 }
 
 /*liste des éléments du nav*/
@@ -80,7 +83,7 @@ nav ul li a:hover:after{
     line-height: 1.5;
     background-color: transparent;
     border-radius: 30px;
-    background-size: cover;
+    background-size: 100%;
     background-position-x: center;
     background-repeat: no-repeat;
     display: inline-block;
