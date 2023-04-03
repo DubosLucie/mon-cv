@@ -5,14 +5,19 @@
     <meta charset="UTF-8">
     <title>Personal Portfolio Website</title>
     <!----CSS link----->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="(max-device-width: 560px)" href="phone.css">
+    <link rel="stylesheet" media="(min-device-width: 560px) and (max-width: 900px)" href="sScreen.css">
+    <link rel="stylesheet" media="(min-width: 901px) and (max-width: 960px) and (min-aspect-ratio: 7/10)"
+        href="sScreen.css">
+    <link rel="stylesheet" media="(min-width: 961px) and (min-aspect-ratio: 7/10)" href="lScreen.css">
 </head>
 <body>
     <div id="fondCoul">
-        <nav>
+        <nav id='fdCoulPhone'>
+            <img src="logo.jpg" alt="logo" class="logo" /> 
             <ul>
                 <li class='fondCouleur'><a href="index.html">Home</a></li>
-                <li class='fondCouleur'><a href="about.html">About</a></li>
+                <li class='fondCouleur'><a href="about.html">About<a/></li>
                 <li class='fondCouleur'><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
